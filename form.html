@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ALTSCHOOL FORM</title>
+</head>
+<body>
+  <nav>
+    <button><a href="/index.html">Back home</a></button>
+  </nav>
+   <HEADER>
+     <h2>Application form</h2>
+     <p>fill in your details</p>
+   </HEADER>
+   <form action="">
+     <label for="FN"></label>
+     <input type="text" id="FN" placeholder="Enter first Name">
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required> <br>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required> <br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="educationLevel">Education Level:</label>
+    <input type="text" id="educationLevel" name="educationLevel" required> <br>
+
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required>
+
+    <label for="stateCity">State/City of Residence:</label>
+    <input type="text" id="stateCity" name="stateCity" required> <br>
+
+    <label for="employmentStatus">Employment Status:</label>
+    <input type="text" id="employmentStatus" name="employmentStatus" required>
+
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber" required> <br>
+
+    <label for="chooseSchool">Choose School:</label>
+    <select id="chooseSchool" name="chooseSchool" required>
+      <option value="schoolOfEngineering">School of Engineering</option>
+      <option value="schoolOfProduct">School of Product</option>
+      <option value="schoolOfData">School of Data</option>
+    </select>
+
+    <label for="chooseCourse">Choose Course of Study:</label>
+    <select id="chooseCourse" name="chooseCourse" required>
+      <option value="frontendEngineering">Frontend Engineering</option>
+      <option value="backend">Backend</option>
+      <option value="data">Data</option>
+    </select>
+ <br>
+    <label for="howDidYouHear">How Did You Hear About Us:</label>
+    <select id="howDidYouHear" name="howDidYouHear" required>
+      <option value="socialMedia">Social Media</option>
+      <option value="friend">Friend</option>
+      <option value="website">Website</option>
+    </select>
+
+    <label for="discountCode">Scholarship/Discount Code (optional):</label>
+    <input type="text" id="discountCode" name="discountCode"> <br>
+
+
+    <p>
+      By clicking continue, you agree to the terms of use and acknowledge that you have read the privacy policy.
+    </p>
+
+    <button type="submit">Proceed</button>
+  </form>
+
+
+
+</body>
+</html>
